@@ -5,6 +5,7 @@ import About from "../../pages/About";
 import Blog from "../Blog";
 import Project from "../Project";
 import Resume from "../Resume";
+import Skill from "../Skill";
 import "./Home.styles.css";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Resume />
       <Blog />
       <Project />
+      <Skill />
     </div>
   );
 };
