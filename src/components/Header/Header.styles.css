@@ -1,0 +1,33 @@
+.full-navigation nav {
+  background: transparent;
+}
+.navbar nav {
+  background: crimson;
+}
+.name_white {
+  color: wheat;
+  font-size: 35px;
+  font-weight: 600;
+}
+.nav-menu-li li a {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+.nav-menu-li li a:hover {
+  color: crimson;
+}
+.name {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.name span {
+  color: crimson;
+}
+.toggle {
+  border: 1px solid transparent;
+}
