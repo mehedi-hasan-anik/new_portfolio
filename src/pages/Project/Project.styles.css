@@ -1,0 +1,60 @@
+.project_wrapper {
+  background: black;
+  padding: 50px 0px;
+}
+.inner_project_wrapper {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+  justify-content: space-between;
+}
+.card-area {
+  color: #374b5c;
+  border-radius: 20px;
+}
+.card-area img {
+  border-radius: 10px 10px 0px 0px;
+}
+.card-area:hover {
+  background: crimson;
+  color: #fff;
+}
+.card-area:hover h3 {
+  color: white;
+}
+.card-area p {
+  font-size: 16px;
+  padding: 15px;
+  text-align: justify;
+}
+.card-area h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: crimson;
+  text-align: left;
+  padding-left: 15px;
+}
+.card-area ul {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.card-area ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.card-area ul li a {
+  text-decoration: none;
+  padding: 5px 20px;
+  border: 1px solid crimson;
+  border-radius: 5px;
+  color: #374b5c;
+}
+.card-area:hover ul li a {
+  border: 1px solid #fff;
+  color: #fff;
+}

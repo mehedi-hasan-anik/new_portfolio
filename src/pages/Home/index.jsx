@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import Hero from "../../components/Hero";
 import About from "../../pages/About";
 import Blog from "../Blog";
+import Project from "../Project";
 import Resume from "../Resume";
 import "./Home.styles.css";
 
@@ -14,6 +15,7 @@ const Home = () => {
       <About />
       <Resume />
       <Blog />
+      <Project />
     </div>
   );
 };
