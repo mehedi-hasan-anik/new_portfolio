@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
+import About from "../../pages/About";
 import "./Home.styles.css";
 
 const Home = () => {
@@ -8,17 +9,7 @@ const Home = () => {
     <div>
       <Header />
       <Hero />
-      jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-      jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-      jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-      jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-      jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-      jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-      jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-      jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-      jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-      jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-      jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+      <About />
     </div>
   );
 };

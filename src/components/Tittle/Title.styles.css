@@ -1,0 +1,28 @@
+.title {
+  font-size: 40px;
+  font-weight: 500;
+}
+.sub_title span {
+  position: relative;
+  color: crimson;
+  z-index: 2;
+  font-weight: 700;
+}
+.sub_title span::before {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  right: 75px;
+  width: 55px;
+  height: 3px;
+  background: #111;
+}
+.sub_title span::after {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  left: 75px;
+  width: 55px;
+  height: 3px;
+  background: #111;
+}

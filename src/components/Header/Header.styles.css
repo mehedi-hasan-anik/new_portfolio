@@ -4,6 +4,9 @@
 .navbar nav {
   background: crimson;
 }
+.navbar nav .nav-menu-li li a:hover {
+  color: white;
+}
 .name_white {
   color: wheat;
   font-size: 35px;
