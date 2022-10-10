@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import barIcon from "../../images/icons8-tasks-30.png";
 import "./Header.styles.css";
 
@@ -25,12 +24,12 @@ const Header = () => {
     <div className={navbar ? "navbar" : "full-navigation"}>
       <nav class="navbar navbar-expand-lg  fixed-top">
         <div class="container nav-full-area">
-          <Link
+          <a
             className={navbar ? "name_white navbar-brand" : "navbar-brand name"}
-            to="/"
+            href="/#home"
           >
             <span>MD.</span> ANIK MIAH
-          </Link>
+          </a>
           <button
             class="navbar-toggler toggle"
             type="button"

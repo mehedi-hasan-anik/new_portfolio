@@ -34,3 +34,7 @@
 .toggle {
   border: 1px solid transparent;
 }
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: white !important;
+}
