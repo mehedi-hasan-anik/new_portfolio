@@ -4,7 +4,7 @@ import "./Skill.styles.css";
 
 const Skill = () => {
   return (
-    <div className="skill_wrapper">
+    <div className="skill_wrapper" id="skill">
       <Tittle title="My Skill" sub_title="who i am" />
       <div className="container">
         <div className="wrap">

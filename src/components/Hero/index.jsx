@@ -4,7 +4,7 @@ import "./Hero.styles.css";
 
 const Hero = () => {
   return (
-    <div className="hero_wrapper">
+    <div className="hero_wrapper" id="home">
       <div className="container">
         <div className="d-flex justify-content-between align-items-center">
           <div className="hero-left">

@@ -10,7 +10,7 @@ import "./Contact.styles.css";
 
 const Contact = () => {
   return (
-    <div className="contact_wrapper">
+    <div className="contact_wrapper" id="contact">
       <Tittle title="Contact Me" sub_title="who i am" color="white" />
       <div className="form-area ">
         <div className="inner-form-area ">

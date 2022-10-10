@@ -50,39 +50,39 @@ const Header = () => {
           >
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-menu-li">
               <li class="nav-item">
-                <Link className="nav-link ms-3" to="/home">
+                <a className="nav-link ms-3" href="/#home">
                   Home
-                </Link>
+                </a>
               </li>
               <li class="nav-item">
-                <Link className="nav-link ms-3" to="/about">
+                <a className="nav-link ms-3" href="/#about">
                   About
-                </Link>
+                </a>
               </li>
               <li class="nav-item">
-                <Link className="nav-link ms-3" to="/resume">
+                <a className="nav-link ms-3" href="/#resume">
                   Resume
-                </Link>
+                </a>
               </li>
               <li class="nav-item">
-                <Link className="nav-link ms-3" to="/blog">
+                <a className="nav-link ms-3" href="/#blog">
                   Blog
-                </Link>
+                </a>
               </li>
               <li class="nav-item">
-                <Link className="nav-link ms-3" to="/project">
+                <a className="nav-link ms-3" href="/#project">
                   Project
-                </Link>
+                </a>
               </li>
               <li class="nav-item">
-                <Link className="nav-link ms-3" to="/skill">
+                <a className="nav-link ms-3" href="/#skill">
                   Skill
-                </Link>
+                </a>
               </li>
               <li class="nav-item">
-                <Link className="nav-link ms-3" to="/contact">
+                <a className="nav-link ms-3" href="/#contact">
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
