@@ -1,0 +1,59 @@
+.contact_wrapper {
+  background: black;
+  padding: 50px 0px;
+  color: white;
+}
+
+.form-area {
+  padding: 30px;
+  padding-top: 50px;
+}
+.inner-form-area {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.inner-form-area input {
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+.inner-form-area textarea {
+  padding: 15px 10px;
+  margin-bottom: 30px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+.phone-email-area {
+  margin: 0 auto;
+  text-align: center;
+}
+.phone-email-area h4 {
+  font-size: 18px;
+}
+
+.follow-area {
+}
+.inner-follow-area {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+.inner-follow-area ul {
+  margin: 0;
+  padding: 0;
+}
+
+.inner-follow-area ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.inner-follow-area ul li a {
+  font-size: 30px;
+  color: crimson;
+}

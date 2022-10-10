@@ -1,8 +1,10 @@
 import React from "react";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
 import About from "../../pages/About";
 import Blog from "../Blog";
+import Contact from "../Contact";
 import Project from "../Project";
 import Resume from "../Resume";
 import Skill from "../Skill";
@@ -18,6 +20,8 @@ const Home = () => {
       <Blog />
       <Project />
       <Skill />
+      <Contact />
+      <Footer />
     </div>
   );
 };
