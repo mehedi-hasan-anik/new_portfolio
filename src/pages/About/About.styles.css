@@ -4,7 +4,9 @@
 .inner_about_wrapper {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
+
 .about_right {
   flex: 1;
 }

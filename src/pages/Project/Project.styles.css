@@ -10,6 +10,16 @@
   grid-auto-rows: minmax(100px, auto);
   justify-content: space-between;
 }
+@media only screen and (max-width: 768px) {
+  .inner_project_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 425px) {
+  .inner_project_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 .card-area {
   border-radius: 20px;
   background: gradient(145deg, #1e2024, #23272b) !important;
