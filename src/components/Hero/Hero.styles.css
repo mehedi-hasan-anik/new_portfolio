@@ -23,16 +23,15 @@
 }
 .home-content a {
   display: inline-block;
-  background: gradient(145deg, #1e2024, #23272b);
-  color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  /* border: 2px solid crimson; */
   transition: all 0.3s ease;
   text-decoration: none;
+  background: gradient(145deg, #1e2024, #23272b);
+  color: #fff;
   box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
 }
 .hero-right {

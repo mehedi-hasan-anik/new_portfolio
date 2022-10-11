@@ -11,19 +11,17 @@
   justify-content: space-between;
 }
 .card-area {
-  color: #374b5c;
   border-radius: 20px;
+  background: gradient(145deg, #1e2024, #23272b) !important;
+  color: #fff;
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
 }
+
 .card-area img {
   border-radius: 10px 10px 0px 0px;
+  width: 100%;
 }
-.card-area:hover {
-  background: crimson;
-  color: #fff;
-}
-.card-area:hover h3 {
-  color: white;
-}
+
 .card-area p {
   font-size: 16px;
   padding: 15px;
@@ -50,11 +48,11 @@
 .card-area ul li a {
   text-decoration: none;
   padding: 5px 20px;
-  border: 1px solid crimson;
   border-radius: 5px;
-  color: #374b5c;
-}
-.card-area:hover ul li a {
-  border: 1px solid #fff;
+  background: gradient(145deg, #1e2024, #23272b) !important;
   color: #fff;
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+.card-area ul li a:hover {
+  color: crimson;
 }

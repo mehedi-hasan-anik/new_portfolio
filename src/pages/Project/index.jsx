@@ -62,7 +62,7 @@ const Project = () => {
       <div className="container">
         <div className="inner_project_wrapper">
           {projectDetails.map((event) => (
-            <div className="card card-area">
+            <div className="card-area">
               <img src={event.photo} alt="" />
               <h3 className="mt-3">{event.name}</h3>
               <p>{event.details}</p>
