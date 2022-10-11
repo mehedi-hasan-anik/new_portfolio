@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="hero_wrapper" id="home">
       <div className="container">
-        <div className="d-flex justify-content-between align-items-center">
+        <div className="inner_hero_wrapper">
           <div className="hero-left">
             <div class="home-content">
               <div class="text-1">Hello, my name is</div>
