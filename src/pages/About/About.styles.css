@@ -6,6 +6,11 @@
   align-items: center;
   flex-wrap: wrap;
 }
+@media only screen and (max-width: 768px) {
+  .inner_about_wrapper {
+    flex-direction: column;
+  }
+}
 
 .about_right {
   flex: 1;
@@ -14,7 +19,8 @@
   flex: 1;
 }
 .about_left img {
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   height: auto;
 }
 

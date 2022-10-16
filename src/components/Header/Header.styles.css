@@ -38,3 +38,11 @@
 .navbar-brand:hover {
   color: white !important;
 }
+@media only screen and (max-width: 576px) {
+  .name {
+    font-size: 20px;
+  }
+  .name_white {
+    font-size: 20px;
+  }
+}

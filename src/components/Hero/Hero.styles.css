@@ -68,3 +68,13 @@
   width: 100%;
   height: 650px;
 }
+@media only screen and (max-width: 420px) {
+  .hero-right img {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .home-content .text-2 {
+    font-size: 40px;
+  }
+}
