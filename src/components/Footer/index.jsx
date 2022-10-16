@@ -18,11 +18,11 @@ const Footer = () => {
     // {name: "H#000(0th Floor), Road #00, new DOHS, Mohakhali, Dhaka, Bangladesh" , link: "//google.com/map"},
     // {name: "" , link: "//google.com/map"},
   ];
-  const Home = [{ name: "Home", link: "/home" }];
+  const Home = [{ name: "Home", link: "/#home" }];
   const information = [
-    { name: "About Us", link: "/about" },
-    { name: "Projects", link: "/project" },
-    { name: "Contact Us", link: "/contact" },
+    { name: "About Us", link: "/#about" },
+    { name: "Projects", link: "/#project" },
+    { name: "Contact Us", link: "/#contact" },
   ];
   return (
     <footer className="footer-area clear-both">

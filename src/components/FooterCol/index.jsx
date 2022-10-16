@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // import "./FooterCol.css";
 
 const FooterCol = (props) => {
@@ -11,9 +10,9 @@ const FooterCol = (props) => {
       <ul className="list-unstyled mt-4">
         {props.menuItems.map((item, index) => (
           <li key={index}>
-            <Link to={item.link} className="" style={{ color: "black" }}>
+            <a href={item.link} className="" style={{ color: "black" }}>
               {item.name}
-            </Link>
+            </a>
           </li>
         ))}
       </ul>
