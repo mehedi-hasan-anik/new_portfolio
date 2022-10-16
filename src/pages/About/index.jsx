@@ -22,12 +22,14 @@ const About = () => {
               perfect design. I also make website more & more interactive with
               web animations.
             </p>
+            <ul className="informtion">
+              <li>Full Name : Md. Anik Miah</li>
+              <li>Age : 25</li>
+              <li>Nationality: Bangladeshi</li>
+              <li>Language : Bangla, English</li>
+              <li>Address: Dhaka, Bangladesh</li>
+            </ul>
 
-            <h6>Full Name : Md. Anik Miah</h6>
-            <h6>Age : 25</h6>
-            <h6>Nationality: Bangladeshi</h6>
-            <h6>Language : Bangla, English</h6>
-            <h6>Address: Dhaka, Bangladesh</h6>
             <div className="cv_downlod_btn_wrapper">
               <a href={cv} className="cv_downlod_btn" download>
                 Download CV
