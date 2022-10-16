@@ -5,7 +5,7 @@ import "./Resume.styles.css";
 const Resume = () => {
   return (
     <div className="resume_wrapper" id="resume">
-      <Tittle title="My Resume" sub_title="who i am" color="white" />
+      <Tittle title="My Resume" sub_title="Brief Description" color="white" />
       <div className="container">
         <div className="row innner_resume_wrapper">
           <div className="col-md-6">

@@ -69,7 +69,11 @@ const Project = () => {
 
   return (
     <div className="project_wrapper" id="project">
-      <Tittle title="My Project" sub_title="who i am" color="white" />
+      <Tittle
+        title="My Project"
+        sub_title=" Visit My Portfolio"
+        color="white"
+      />
       <div className="container">
         <div className="inner_project_wrapper">
           {projectDetails.map((event) => (

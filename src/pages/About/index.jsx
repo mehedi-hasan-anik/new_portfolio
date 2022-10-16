@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="about_wrapper" id="about">
       <div className="container">
-        <Tittle title="About Me" sub_title="who i am" />
+        <Tittle title="About Me" sub_title="Who I Am" />
         <div className="inner_about_wrapper">
           <div className=" about_left">
             <img src={aboutImg} alt="aboutImg" />

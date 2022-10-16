@@ -9,7 +9,7 @@ import "./Blog.styles.css";
 const Blog = () => {
   return (
     <div className="blog_wrapper" id="blog">
-      <Tittle title="My Blog" sub_title="who i am" />
+      <Tittle title="My Blog" sub_title="Visit My Blog" />
       <div className="container">
         <div className="inner-full-blog-area">
           <div className="row">

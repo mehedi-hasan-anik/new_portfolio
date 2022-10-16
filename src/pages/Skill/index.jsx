@@ -5,7 +5,7 @@ import "./Skill.styles.css";
 const Skill = () => {
   return (
     <div className="skill_wrapper" id="skill">
-      <Tittle title="My Skill" sub_title="who i am" />
+      <Tittle title="My Skill" sub_title="Professional Skills" />
       <div className="container">
         <div className="wrap">
           <div className="bar">
