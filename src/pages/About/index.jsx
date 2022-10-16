@@ -1,5 +1,6 @@
 import React from "react";
 import Tittle from "../../components/Tittle";
+import cv from "../../images/MD. ANIK MIAH.docx.pdf";
 import aboutImg from "../../images/Untitled-4_50.png";
 import "./About.styles.css";
 
@@ -28,7 +29,7 @@ const About = () => {
             <h6>Language : Bangla, English</h6>
             <h6>Address: Dhaka, Bangladesh</h6>
             <div className="cv_downlod_btn_wrapper">
-              <a href="#" className="cv_downlod_btn">
+              <a href={cv} className="cv_downlod_btn" download>
                 Download CV
               </a>
             </div>

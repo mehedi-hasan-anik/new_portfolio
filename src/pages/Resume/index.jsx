@@ -12,7 +12,7 @@ const Resume = () => {
             <div className="single_border">
               <h3>Skill</h3>
               <ul>
-                <li> c, javascript.</li>
+                <li> C, JavaScript.</li>
                 <li>ReactJS, Redux, ChartJS, Styled Component.</li>
                 <li> Material UI, Ant Design, Bootstrap.</li>
                 <li> HTML5, CSS3, SASS.</li>
